@@ -72,7 +72,7 @@ void GreeClimate::loop() {
 }
 
 void GreeClimate::setup() {
-  this->set_update_interval(500);
+  this->set_update_interval(5000);
 }
 
 void GreeClimate::update() {
